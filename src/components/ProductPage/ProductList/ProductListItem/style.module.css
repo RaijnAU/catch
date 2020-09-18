@@ -1,0 +1,64 @@
+.itemContainer {
+	display: flex;
+	flex: none;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #d1d3d5;
+	margin: 10px;
+	width: 187px;
+}
+
+.itemPicture {
+	display: flex;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.itemName {
+	display: flex;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0 5px;
+}
+
+.itemRetail {
+	display: flex;
+}
+
+.itemSale {
+	display: flex;
+	background: #e62229;
+	color: #ffffff;
+	padding: 6px;
+}
+
+.soldoutPrice {
+	background: rgba(0, 0, 0, 0.2);
+	cursor: not-allowed;
+}
+
+.itemQuantity {
+	font-size: 11px;
+}
+
+.nostock {
+	position: relative;
+	margin: 0;
+	bottom: 16px;
+	left: 54px;
+	background: #e62229;
+	height: 16px;
+	width: 72px;
+	font-size: 8px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 16px;
+}
+
+@media all and (-ms-high-contrast:none) {
+	*::-ms-backdrop, .itemName {
+		width: calc(100% - 2px);
+	}
+}
