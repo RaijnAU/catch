@@ -4,8 +4,8 @@ Built with ReactJS, TypeScript and Storybook for visual test coverage.
 
 ### `Overview`
 
-Deployed to: http://xxx.com/<br />
-Chromatic for UI tests: http://xxx.com/
+Deployed to: https://github.com/RaijnAU/catch/<br />
+Chromatic for UI tests: https://www.chromatic.com/builds?appId=5f64741001286100228e52d1
 
 ### `npm start`
 

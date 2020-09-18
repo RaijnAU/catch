@@ -1,0 +1,14 @@
+name: "Catch"
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: npm
+      - uses: chromaui/action@v1
+        with:
+          projectToken: lalb1d5nqg
+          token: ${{ secrets.GITHUB_TOKEN }}
