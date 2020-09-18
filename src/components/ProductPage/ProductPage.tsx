@@ -28,7 +28,6 @@ const ProductPage: React.FC = () => {
 			setProducts(response.results);
 			setHeading(response.metadata);
 			setIsLoading(false);
-			console.log(response.metadata);
 		}
 		getData();
 	}, []);
